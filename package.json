@@ -1,0 +1,13 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "For demonstrating cost of reflow on frontend performance",
+  "scripts": {
+    "start": "parcel game-of-life.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Game of life</title>
+        <style>
+            #row {
+                height:8px;
+                line-height:4px;
+            }
+            .container{
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .play{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 0.3rem;
+                cursor: pointer;
+            }
+            .cell{
+                display: inline-block;
+                width: 2px;
+       	        height: 2px;
+                padding: 4px;
+                background-color: black;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="play">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="next-generation">Next generation</button>
+        </div>
+        <div class="container" id="container">
+            <div id="grid">
+            </div>
+        </div>
+        <script type="module" src="game.js"></script>
+    </body>
+</html>
